@@ -44,3 +44,22 @@
   border-bottom: 5px solid #702632;
   color: #702632;
 }
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3vh;
+  height: 50vh;
+  width: 90vw;
+  background-color: #E1E1E1;
+}
+
+.news {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 3vh;
+  margin-bottom: 1vh;
+  height: 25vh;
+  width: 90vw;
+  background-color: #E1E1E1;
+}

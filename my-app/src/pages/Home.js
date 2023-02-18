@@ -12,6 +12,12 @@ const Home = () => {
                     <a href='/' className='menuitem'>Sources</a>
                 </div>
             </div>
+            <div className='container'>
+
+            </div>
+            <div className='news'>
+                
+            </div>
         </div>
     );
 }
