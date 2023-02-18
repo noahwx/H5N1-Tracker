@@ -7,3 +7,40 @@
   margin: 0;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: #E1E1E1;
+}
+
+.menuitems {
+  font-size: clamp(2rem, 1rem, 2rem);
+  font-weight: 600;
+}
+
+.menuitem {
+  margin-left: 2vw;
+  text-decoration: none;
+  color: #080705;
+  transition: opacity 500ms ease, border-bottom 100ms ease;
+}
+
+.logo {
+  width: 15em;
+}
+
+/* .menuitem.active {
+  color: #912F40;
+} */
+
+.menuitems:hover > .menuitem {
+  opacity: 0.3;
+}
+
+.menuitems:hover > .menuitem:hover {
+  opacity: 1;
+  border-bottom: 5px solid #702632;
+  color: #702632;
+}
